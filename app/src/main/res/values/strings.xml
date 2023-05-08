@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RoutineAppAS</string>
+    <string name="popup_rname" />
+    <string name="popup_cancel" />
+    <string name="name_your_routine" />
+    <string name="popup_submit" />
+    <string name="submit">submit</string>
+    <string name="cancel">cancel</string>
+    <string name="type_routine_name">Type Routine Name</string>
+    <string name="delete">delete</string>
+    <string name="name">name</string>
+    <string name="popup_name">Name Your Routine</string>
+    <string name="xNum">x12</string>
+    <string name="num_lbs">Num lbs</string>
+    <string name="create_your_exercise">Create Your Exercise</string>
+    <string name="type_number_of_sets">Type Number of Sets</string>
+    <string name="type_number_of_reps">Type Number of Reps</string>
+    <string name="type_weight">Type Weight</string>
+    <string name="type_exercise_name">Type Exercise Name</string>
+    <string name="sets_completed">Sets Completed</string>
+    <string name="_0">0</string>
+    <string name="of">of</string>
+    <string name="__0">0</string>
+    <string name="num">num</string>
+    <string name="type">Type</string>
+    <string name="lb">lb</string>
+    <string name="typ" />
+    <string name="weight">Weight</string>
+    <string name="number_of_reps">Number of Reps</string>
+    <string name="number_of_sets">Number of Sets</string>
+    <string name="exercise_name">Exercise Name</string>
+    <string name="update_your_exercise">Update Your Exercise</string>
+    <string name="sets">Sets</string>
+    <string name="reps">Reps</string>
+    <string name="_00">00</string>
+    <string name="update_your_routine">Update Your Routine</string>
+
+</resources>
