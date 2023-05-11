@@ -11,8 +11,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
-        android:layout_width="374dp"
-        android:layout_height="247dp"
+        android:layout_width="377dp"
+        android:layout_height="223dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
@@ -21,8 +21,8 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/evCard"
-            android:layout_width="313dp"
-            android:layout_height="182dp"
+            android:layout_width="334dp"
+            android:layout_height="156dp"
             android:layout_marginStart="54dp"
             android:layout_marginEnd="54dp"
             android:clickable="true"
@@ -42,17 +42,16 @@
 
                 <TextView
                     android:id="@+id/evName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="231dp"
+                    android:layout_height="137dp"
                     android:text="@string/name"
                     android:textSize="34sp"
                     android:textStyle="bold"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.144"
+                    app:layout_constraintHorizontal_bias="0.168"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.189" />
+                    app:layout_constraintTop_toTopOf="parent" />
 
                 <ImageView
                     android:id="@+id/evDots"

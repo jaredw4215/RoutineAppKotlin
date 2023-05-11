@@ -24,8 +24,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initMainView()
-    }
-    private fun addEditPopup(view: RoutineView,rModel: RoutineModel){
+    }    private fun addEditPopup(view: RoutineView,rModel: RoutineModel){
         val popup = Dialog(this)
         popup.requestWindowFeature(Window.FEATURE_NO_TITLE)
         popup.setContentView(R.layout.routine_popup_view)
