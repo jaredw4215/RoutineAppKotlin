@@ -25,18 +25,18 @@
 
     <ScrollView
         android:id="@+id/scrollView4"
-        android:layout_width="384dp"
-        android:layout_height="713dp"
+        android:layout_width="372dp"
+        android:layout_height="619dp"
         android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         android:contentDescription="@string/appbar_scrolling_view_behavior"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.788">
 
         <LinearLayout
             android:id="@+id/mainLinearLayout"
@@ -45,5 +45,22 @@
             android:clipToPadding="false"
             android:orientation="vertical" />
     </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="237dp"
+        android:layout_height="46dp"
+        android:gravity="left"
+        android:text="Your Routines"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.619"
+        tools:ignore="HardcodedText,RtlHardcoded,TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

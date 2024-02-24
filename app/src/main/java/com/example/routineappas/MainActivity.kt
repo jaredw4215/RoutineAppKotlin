@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initMainView()
-    }    private fun addEditPopup(view: RoutineView,rModel: RoutineModel){
+    }
+    private fun addEditPopup(view: RoutineView,rModel: RoutineModel){
         val popup = Dialog(this)
         popup.requestWindowFeature(Window.FEATURE_NO_TITLE)
         popup.setContentView(R.layout.routine_popup_view)
@@ -79,7 +80,7 @@ class MainActivity : AppCompatActivity() {
         val newRoutineView = RoutineView(this)
         val intent = Intent(this, SecondActivity::class.java)
         newRoutineView.name.text = rModel.r_name
-        newRoutineView.card.setOnClickListener {
+        newRoutineView.root.setOnClickListener {
             intent.putExtra("Title",rModel.r_name)
             startActivity(intent)
 

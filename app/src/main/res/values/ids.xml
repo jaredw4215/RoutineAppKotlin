@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="evDots" type="id" />
+    <item name="rv_Dots" type="id" />
+    <item name="rv_Name" type="id"/>
+    <item name="rv_constraintLayout" type="id"/>
+    <item name="rv_Root" type="id"/>
+
+    <item name="ev_Root" type="id"/>
+    <item name="ev_constraintLayout" type="id"/>
+    <item name="ev_Name" type="id"/>
+    <item name="ev_Dots" type="id"/>
+    <item name="ev_setHolder" type="id"/>
+    <item name="ev_Reps" type="id"/>
+    <item name="ev_Weight" type="id"/>
+    <item name="ev_WeightType" type="id"/>
+
+
 </resources>

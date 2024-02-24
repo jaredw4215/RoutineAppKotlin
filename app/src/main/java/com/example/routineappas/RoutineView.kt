@@ -6,13 +6,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.*
 import androidx.cardview.widget.CardView
-import androidx.constraintlayout.widget.ConstraintLayout
 
-class RoutineView : ConstraintLayout {
+class RoutineView : CardView {
 
-    lateinit var rootLayout : ConstraintLayout
+    lateinit var root : CardView
     lateinit var name : TextView
-    lateinit var card : CardView
     lateinit var dots : ImageView
 
     constructor(context: Context) : super(context) {
@@ -29,10 +27,9 @@ class RoutineView : ConstraintLayout {
     private fun initRoutineView(context: Context){
         layoutParams = LayoutParams(LayoutParams.MATCH_PARENT,ViewGroup.LayoutParams.WRAP_CONTENT)
         LayoutInflater.from(context).inflate(R.layout.routine_view,this,true)
-        rootLayout = findViewById(R.id.constraintLayout)
-        name = findViewById(R.id.evName)
-        card = findViewById(R.id.evCard)
-        dots = findViewById(R.id.evDots)
+        root = findViewById(R.id.rv_Root)
+        name = findViewById(R.id.rv_Name)
+        dots = findViewById(R.id.rv_Dots)
     }
 
 }

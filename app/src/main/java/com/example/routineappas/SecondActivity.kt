@@ -133,7 +133,7 @@ class SecondActivity : AppCompatActivity() {
         newExerciseView.name.text = eModel.e_name
         newExerciseView.reps.text = eModel.repNum
         newExerciseView.weight.text = eModel.weight
-        newExerciseView.type.text = getString(R.string.lb)
+        newExerciseView.weightType.text = getString(R.string.lb)
         for (x in 0 until eModel.setNum){
             boxNumber++
             addCheckbox(newExerciseView)

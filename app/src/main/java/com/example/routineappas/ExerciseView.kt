@@ -5,22 +5,20 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageButton
-import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.constraintlayout.widget.ConstraintLayout
 
-class ExerciseView : ConstraintLayout{
+class ExerciseView : CardView{
 
-    lateinit var rootLayout : ConstraintLayout
-    lateinit var card: CardView
+    lateinit var root : CardView
     lateinit var name: TextView
     lateinit var dots: ImageButton
     lateinit var setHolder: LinearLayout
     lateinit var reps: TextView
     lateinit var weight: TextView
-    lateinit var type: TextView
+    lateinit var weightType: TextView
 
     constructor(context: Context) : super(context) {
         initRoutineView(context)
@@ -37,14 +35,13 @@ class ExerciseView : ConstraintLayout{
     private fun initRoutineView(context: Context){
         layoutParams = LayoutParams(LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT)
         LayoutInflater.from(context).inflate(R.layout.exercise_view,this,true)
-        rootLayout = findViewById(R.id.constraintLayout)
-        card = findViewById(R.id.evCard)
-        name = findViewById(R.id.evName)
-        dots = findViewById(R.id.evDots)
-        setHolder = findViewById(R.id.evSetHolder)
-        reps = findViewById(R.id.evRepTV)
-        weight = findViewById(R.id.evWeightTV)
-        type = findViewById(R.id.weightType)
+        root = findViewById(R.id.ev_Root)
+        name = findViewById(R.id.ev_Name)
+        dots = findViewById(R.id.ev_Dots)
+        setHolder = findViewById(R.id.ev_setHolder)
+        reps = findViewById(R.id.ev_Reps)
+        weight = findViewById(R.id.ev_Weight)
+        weightType = findViewById(R.id.ev_WeightType)
 
     }
 }
